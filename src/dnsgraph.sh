@@ -12,6 +12,11 @@
 if [ -f "/etc/default/dnsgraph" ]; then
     . /etc/default/dnsgraph
 fi
+
+if [ -f "$HOME/.config/dnsgraph" ]; then
+    . $HOME/.config/dnsgraph
+fi
+
 #config
 TARGET=${TARGET:-"/site/htdocs/dns"}
 DNSANALISE=${DNSANALISE:-"/usr/local/bin/dnsanalise.pl"}
