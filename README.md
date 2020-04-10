@@ -6,6 +6,8 @@ dnsgraph is a very simple named statistics RRDtool frontend for BIND
 that produces daily, weekly, monthly and yearly graphs of 
 success/failure, recursion/referral, nxrrset/nxdomain (DNS traffic).
 
+![](/docs/sample/screenshot.png) 
+
 ### files:
 	dnsgraph.cron
 	/etc/default/dnsgraph
