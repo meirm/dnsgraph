@@ -1,0 +1,13 @@
+# dnsgraph -- a bind statistics rrdtool frontend
+#
+# based on mailraph by David Schweikert <dws@ee.ethz.ch>
+# modified by Jicheng Qu
+# modified by Przemyslaw Sztoch <navy@navy.wox.org>
+#
+# copyright (c) 2003
+# released under the GNU General Public License
+##################################################
+TARGET="/srv/dnsgraph.example.com/htdocs"
+DNSANALISE_PARAMS="--rrdfile $TARGET/../dnsgraph.rrd --logfile=/var/log/bind9/named-stats.log"
+DNSREPORT_PARAMS="--rrdfile $TARGET/../dnsgraph.rrd --images imgs"
+
